@@ -18,7 +18,6 @@ class ActionProcessor:
 
         if SymElementsParser().get_form_values(action)['action'].startswith('data'):
             company_name = SymElementsParser().get_form_values(action)['action'].split(' ')
-            print('-----------', company_name)
             self.data_message = MessageFormatter().format_message('Found your client company [{0}].  Now provide an entify identifier like [LEI, Client Identifier, or Exact Name Match]'.format(company_name))
             self.bot_client.get_message_client().send_msg(SymElementsParser().get_stream_id(action), self.data_message)
             self.bot_client.get_message_client().send_msg(SymElementsParser().get_stream_id(action), render_form('./listeners/render_form/html/data_identifier.html'))
@@ -36,6 +35,7 @@ class ActionProcessor:
 
         elif SymElementsParser().get_form_values(action)['action'] == 'identifier-doc':
             form_contents = SymElementsParser().get_form_values(action)
+            self.bot_client.get_message_client().send_msg(SymElementsParser().get_stream_id(action), self.messages.table_message)
             self.bot_client.get_message_client().send_msg(SymElementsParser().get_stream_id(action), render_form('./listeners/render_form/html/doc_table.html'))
 
         elif SymElementsParser().get_form_values(action)['action'] == 'clear':
@@ -88,7 +88,7 @@ class ActionProcessor:
             self.kyc_message = dict(message = """<messageML>
                                         <h3>Hi! Use hydraBot to assist with all your onboarding needs! You can try:</h3>
                                             <li><mention uid="{0}"/> help onboard</li>
-                                            <li><mention uid="{0}"/> get data</li>
+                                            <li><mention uid="{0}"/> get entity</li>
                                             <li><mention uid="{0}"/> get documentation</li>
                                             <li><mention uid="{0}"/> clear</li>
                                             <li><mention uid="{0}"/> finish</li>
@@ -102,7 +102,7 @@ class ActionProcessor:
             self.trade_message = dict(message = """<messageML>
                                         <h3>Hi! Use hydraBot to assist with all your trading needs! You can try:</h3>
                                             <li><mention uid="{0}"/> help trade</li>
-                                            <li><mention uid="{0}"/> yield</li>
+                                            <li><mention uid="{0}"/> find the yield</li>
                                             <li><mention uid="{0}"/> buy</li>
                                             <li><mention uid="{0}"/> finish</li>
                                     </messageML>
@@ -116,7 +116,7 @@ class ActionProcessor:
                                         <h3>Hi! Use hydraBot to keep you up to date on trade status! You can try:</h3>
                                             <li><mention uid="{0}"/> help resolve</li>
                                             <li><mention uid="{0}"/> get fx</li>
-                                            <li><mention uid="{0}"/> get unmatched fx [vendor]</li>
+                                            <li><mention uid="{0}"/> get unmatched fx [currency]</li>
                                             <li><mention uid="{0}"/> finish</li>
                                     </messageML>
                         """.format(self.bot_id))

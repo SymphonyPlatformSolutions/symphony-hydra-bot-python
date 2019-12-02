@@ -48,7 +48,39 @@ class Messages:
         self.buy_message = MessageFormatter().format_message('Building order for you')
         self.match_message = MessageFormatter().format_message('Here is FX Trade Match Search Results')
         self.understand_message = MessageFormatter().format_message('Sorry I did not quite catch that, one more time please?')
-
+        self.table_message = dict(message = """<messageML>
+          <table>
+              <tbody>
+                <tr>
+                  <td>W-88EN-E</td>
+                </tr>
+                <tr>
+                  <td>Audited Financial Statements</td>
+                </tr>
+                <tr>
+                  <td>Assests Under Management (AUN)</td>
+                </tr>
+                <tr>
+                  <td>Sub-Legal Classification</td>
+                </tr>
+                <tr>
+                  <td>Articles of Organization</td>
+                </tr>
+                <tr>
+                  <td>LLC Agreement</td>
+                </tr>
+                <tr>
+                  <td>Investment Management Agreement</td>
+                </tr>
+                <tr>
+                  <td>Offering Memorandum/Prospectus/Offering Circular</td>
+                </tr>
+                <tr>
+                  <td>Account Opening Form</td>
+                </tr>
+              </tbody>
+          </table>
+        </messageML>""".format(bot_id))
 
         self.fx_messages = {
                             1 : render_form('./listeners/render_form/html/fx/1.html'),

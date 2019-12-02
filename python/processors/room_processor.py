@@ -25,8 +25,8 @@ class RoomProcessor:
                                                 <br /> <br />
                                                   <form id='choose-bot'>
                                                     <div style='padding-top:1px;'><button type="action" name="kyc">KYC</button>
-                                                    <button type="action" name="trade-structure">Trade Structure</button>
-                                                    <button type="action" name="whitesand">WhiteSand</button></div>
+                                                    <button type="action" name="trade-structure">Trade Builder</button>
+                                                    <button type="action" name="whitesand">FX Trade Exception</button></div>
                                                   </form>
                                                 </messageML>
                     """)
