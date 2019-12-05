@@ -15,36 +15,44 @@ class IMProcessor:
         self.sym_message_parser = SymMessageParser()
         self.onboard_help_message = dict(message = """<messageML>
                                     <h3>Hi! Use hydraBot to assist with all your onboarding needs! You can try:</h3>
+                                        <ul>
                                         <li><mention uid="{0}"/> help onboard</li>
                                         <li><mention uid="{0}"/> get entity</li>
                                         <li><mention uid="{0}"/> get documentation</li>
                                         <li><mention uid="{0}"/> clear</li>
                                         <li><mention uid="{0}"/> finish</li>
+                                        </ul>
                                 </messageML>
                     """.format(self.bot_id))
 
         self.trade_help_message = dict(message = """<messageML>
                                     <h3>Hi! Use hydraBot to assist with all your trading needs! You can try:</h3>
+                                        <ul>
                                         <li><mention uid="{0}"/> help trade</li>
                                         <li><mention uid="{0}"/> find the yield</li>
                                         <li><mention uid="{0}"/> buy</li>
                                         <li><mention uid="{0}"/> finish</li>
+                                        </ul>
                                 </messageML>
                     """.format(self.bot_id))
 
         self.help_resolve_message = dict(message = """<messageML>
                                     <h3>Hi! Use hydraBot to keep you up to date on trade status! You can try:</h3>
+                                        <ul>
                                         <li><mention uid="{0}"/> help resolve</li>
                                         <li><mention uid="{0}"/> get fx</li>
                                         <li><mention uid="{0}"/> get unmatched fx [currency]</li>
                                         <li><mention uid="{0}"/> finish</li>
+                                        </ul>
                                 </messageML>
                     """.format(self.bot_id))
 
         self.help_message = dict(message = """<messageML>
+                                        <ul>
                                         <li><mention uid="{0}"/> help onboard</li>
                                         <li><mention uid="{0}"/> help trade</li>
                                         <li><mention uid="{0}"/> help resolve</li>
+                                        </ul>
                                 </messageML>
                     """.format(self.bot_id))
 
