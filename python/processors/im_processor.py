@@ -97,6 +97,10 @@ class IMProcessor:
 
                 elif mentioned_users[0] == self.bot_id and commands[1] == 'buy':
                     self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('python/listeners/render_form/html/buy_identifier.html'))
+
+                elif mentioned_users[0] == self.bot_id and commands[1] == 'help':
+                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.help_message)
+
                 else:
                     self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.understand_message)
             else:
