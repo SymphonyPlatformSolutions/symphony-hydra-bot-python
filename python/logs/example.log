@@ -1,125 +1,3241 @@
-2019-12-05 10:17:36,660 - root - DEBUG - RSA Auth/authenticate()
-2019-12-05 10:17:36,660 - root - DEBUG - RSA Auth/authenticate() --> needed to authenticate
-2019-12-05 10:17:36,660 - root - DEBUG - RSA_auth/get_session_token() function started
-2019-12-05 10:17:36,660 - root - DEBUG - RSA_auth/getJWT() function started
-2019-12-05 10:17:36,856 - root - DEBUG - RSA/session token success
-2019-12-05 10:17:36,857 - root - DEBUG - RSA_auth/get_keyauth()
-2019-12-05 10:17:36,857 - root - DEBUG - RSA_auth/getJWT() function started
-2019-12-05 10:17:37,014 - root - DEBUG - RSA/key manager token success
-2019-12-05 10:17:37,066 - root - INFO - DataFeedEventService/startDataFeed()
-2019-12-05 10:17:37,066 - root - DEBUG - DataFeedClient/create_datafeed()
-2019-12-05 10:17:37,870 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:18:08,092 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:18:08,092 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:18:38,254 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:18:38,255 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:19:08,418 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:19:08,418 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:19:38,610 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:19:38,610 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:20:08,771 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:20:08,772 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:20:38,963 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:20:38,964 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:21:09,185 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:21:09,186 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:21:39,380 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:21:39,380 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:22:09,541 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:22:09,541 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:22:39,726 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:22:39,726 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:23:09,889 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:23:09,889 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:23:40,097 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:23:40,097 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:24:10,272 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:24:10,272 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:24:40,457 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:24:40,457 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:25:10,679 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:25:10,680 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:25:40,920 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:25:40,920 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:26:11,081 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:26:11,081 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:26:41,274 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:26:41,274 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:27:11,436 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:27:11,436 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:27:41,649 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:27:41,649 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:28:11,815 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:28:11,816 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:28:42,003 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:28:42,003 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:29:12,174 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:29:12,174 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:29:42,372 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:29:42,372 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:30:12,537 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:30:12,537 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:30:42,720 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:30:42,721 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:31:12,889 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:31:12,890 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:31:43,080 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:31:43,080 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:32:13,252 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:32:13,252 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:32:43,475 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:32:43,475 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:33:13,654 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:33:13,654 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:33:43,848 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:33:43,848 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:34:14,041 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:34:14,041 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:34:44,225 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:34:44,225 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:35:14,395 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:35:14,395 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:35:44,596 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:35:44,597 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:36:14,759 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:36:14,759 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:36:44,948 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:36:44,948 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:37:15,119 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:37:15,119 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:37:45,312 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:37:45,312 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:38:15,609 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:38:15,609 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:38:45,807 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:38:45,807 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:39:15,967 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:39:15,968 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:39:46,161 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:39:46,161 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:40:16,323 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:40:16,324 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:40:46,506 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:40:46,506 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:41:16,679 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:41:16,679 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:41:46,872 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:41:46,872 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:42:17,033 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:42:17,033 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:42:47,226 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:42:47,226 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:43:17,388 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:43:17,389 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:43:47,580 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:43:47,580 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:44:17,740 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:44:17,741 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:44:47,936 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:44:47,936 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:45:18,098 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:45:18,098 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:45:48,296 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:45:48,296 - root - DEBUG - DataFeedClient/read_datafeed()
-2019-12-05 10:46:18,465 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
-2019-12-05 10:46:18,465 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:32:53,132 - root - DEBUG - RSA Auth/authenticate()
+2019-12-10 14:32:53,132 - root - DEBUG - RSA Auth/authenticate() --> needed to authenticate
+2019-12-10 14:32:53,132 - root - DEBUG - RSA_auth/get_session_token() function started
+2019-12-10 14:32:53,133 - root - DEBUG - RSA_auth/getJWT() function started
+2019-12-10 14:32:53,398 - root - DEBUG - RSA/session token success
+2019-12-10 14:32:53,399 - root - DEBUG - RSA_auth/get_keyauth()
+2019-12-10 14:32:53,399 - root - DEBUG - RSA_auth/getJWT() function started
+2019-12-10 14:32:53,623 - root - DEBUG - RSA/key manager token success
+2019-12-10 14:32:53,680 - root - INFO - DataFeedEventService/startDataFeed()
+2019-12-10 14:32:53,681 - root - DEBUG - DataFeedClient/create_datafeed()
+2019-12-10 14:32:54,609 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:32:58,930 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "jmh-Qq990v-E_c7bPHjMoH___pEOsxu8bQ",
+            "timestamp": 1576006378563,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>hi</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:32:58,930 - root - DEBUG - UserClient/get_session_user()
+2019-12-10 14:32:59,132 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:32:59,132 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:32:59,132 - root - DEBUG - room msg received
+2019-12-10 14:32:59,132 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:32:59,133 - root - DEBUG - {
+    "messageId": "jmh-Qq990v-E_c7bPHjMoH___pEOsxu8bQ",
+    "timestamp": 1576006378563,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>hi</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+        "streamType": "ROOM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:32:59,133 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:32:59,460 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:32:59,705 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "TUgVMrghn1q65zTv2sf-a3___pEOsxiEdA",
+            "timestamp": 1576006379394,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                                 <p>Choose Your Demo:</p>                                                 <br/> <br/>                                                   <form id=\"choose-bot\">                                                     <div style=\"padding-top:1px;\"><button type=\"action\" name=\"kyc\">KYC</button>                                                     <button type=\"action\" name=\"trade-structure\">Trade Builder</button>                                                     <button type=\"action\" name=\"whitesand\">FX Trade Exception</button></div>                                                   </form>                                                 </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:32:59,705 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:33:29,945 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:33:29,945 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:34:00,135 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:34:00,135 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:34:30,321 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:34:30,321 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:35:00,567 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:35:00,567 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:35:30,812 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:35:30,812 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:36:01,050 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:36:01,050 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:36:31,248 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:36:31,249 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:37:01,476 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:37:01,476 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:37:31,653 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:37:31,653 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:38:01,880 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:38:01,881 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:38:32,071 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:38:32,071 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:39:02,363 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:39:02,363 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:39:32,547 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:39:32,547 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:40:02,824 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:40:02,824 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:40:33,007 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:40:33,007 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:41:03,226 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:41:03,226 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:41:33,462 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:41:33,462 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:42:03,784 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:42:03,785 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:42:34,024 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:42:34,024 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:43:04,245 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:43:04,245 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:43:23,425 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "4RBWbCSEzY14B9F2RE8FXH///pGaF5k4dA=="
+        },
+        "formMessageId": "TUgVMrghn1q65zTv2sf+a3///pEOsxiEdA==",
+        "formId": "choose-bot",
+        "formValues": {
+            "action": "kyc"
+        }
+    }
+}
+2019-12-10 14:43:23,425 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:43:23,425 - root - DEBUG - elements_action_handler
+2019-12-10 14:43:23,425 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:43:23,621 - root - DEBUG - action_processor/room_process
+2019-12-10 14:43:23,621 - root - DEBUG - {
+    "id": "yddLuM",
+    "messageId": "LfoZRRKnPcG4w3iESCb63X___pEOqZPibQ",
+    "timestamp": 1576007003165,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH///pGaF5k4dA=="
+            },
+            "formMessageId": "TUgVMrghn1q65zTv2sf+a3///pEOsxiEdA==",
+            "formId": "choose-bot",
+            "formValues": {
+                "action": "kyc"
+            }
+        }
+    }
+}
+2019-12-10 14:43:23,621 - root - DEBUG - StreamClient/create_im()
+2019-12-10 14:43:23,672 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:43:24,174 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:43:24,424 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "dC7QMsdwYIXKFj70Yjo_wn___pEOqZAzdA",
+            "timestamp": 1576007004117,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <h3>Hi! Use hydraBot to assist with all your onboarding needs! You can try:</h3>                                             <ul>                                             <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                             <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> get entity</li>                                             <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> get documentation</li>                                             <li><span class=\"entity\" data-entity-id=\"mention4\">@hydraBot</span> clear</li>                                             <li><span class=\"entity\" data-entity-id=\"mention5\">@hydraBot</span> finish</li>                                             </ul>                                     </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention4\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention5\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:43:24,424 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:43:45,006 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "x2WpeyqCKLrRIYRsttNSV3___pEOqT9AbQ",
+            "timestamp": 1576007024831,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> get entity </p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:43:45,006 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:43:45,006 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:43:45,006 - root - DEBUG - message received in IM
+2019-12-10 14:43:45,006 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:43:45,006 - root - DEBUG - {
+    "messageId": "x2WpeyqCKLrRIYRsttNSV3___pEOqT9AbQ",
+    "timestamp": 1576007024831,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> get entity </p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:43:45,007 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:43:45,247 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:43:45,519 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:43:45,707 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "Vsa0A3dGgaY1Go_fyGM7FH___pEOqT3bdA",
+            "timestamp": 1576007025194,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Please select a client entity name to start</div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:43:45,707 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:43:50,730 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "f0IHpngQRW0X0gkBnjP103///pEOqTzIdA==",
+        "formId": "form_id",
+        "formValues": {
+            "action": "data MK-Capitol"
+        }
+    }
+}
+2019-12-10 14:43:50,730 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:43:50,731 - root - DEBUG - elements_action_handler
+2019-12-10 14:43:50,731 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:43:50,917 - root - DEBUG - action_processor/im_process
+2019-12-10 14:43:50,917 - root - DEBUG - {
+    "id": "iQczV3",
+    "messageId": "AHv_OUl4q5U22RnirLPf3n___pEOqSj2bQ",
+    "timestamp": 1576007030537,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "f0IHpngQRW0X0gkBnjP103///pEOqTzIdA==",
+            "formId": "form_id",
+            "formValues": {
+                "action": "data MK-Capitol"
+            }
+        }
+    }
+}
+2019-12-10 14:43:50,918 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:43:51,219 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:43:51,485 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:43:51,730 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "Gkj9Ei-bnhv41dUv263vz3___pEOqSbXdA",
+            "timestamp": 1576007031085,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Found your client company [['data', 'MK-Capitol']].  Now provide an entify identifier like [LEI, Client Identifier, or Exact Name Match]</div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:43:51,730 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:43:56,584 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "E7LDcKXJ0ab3YzANDSwABn///pEOqSWadA==",
+        "formId": "identifier",
+        "formValues": {
+            "action": "identifier-data",
+            "match": [
+                "OceanCliff",
+                "",
+                ""
+            ]
+        }
+    }
+}
+2019-12-10 14:43:56,584 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:43:56,584 - root - DEBUG - elements_action_handler
+2019-12-10 14:43:56,584 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:43:56,631 - root - DEBUG - action_processor/im_process
+2019-12-10 14:43:56,631 - root - DEBUG - {
+    "id": "fBYXjs",
+    "messageId": "nT35di034kSCQIMQxtQpZn___pEOqRH_bQ",
+    "timestamp": 1576007036416,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "E7LDcKXJ0ab3YzANDSwABn///pEOqSWadA==",
+            "formId": "identifier",
+            "formValues": {
+                "action": "identifier-data",
+                "match": [
+                    "OceanCliff",
+                    "",
+                    ""
+                ]
+            }
+        }
+    }
+}
+2019-12-10 14:43:56,633 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:43:56,941 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:43:57,168 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "Ngrw4-I6sPKHSbUiDozffH___pEOqRCBdA",
+            "timestamp": 1576007036803,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">     <form id=\"data-table\">       <table>           <tbody>             <tr>               <td>Client Identifier</td>               <td>Viking 3342</td>             </tr>             <tr>               <td>Entity Type</td>               <td>Fund</td>             </tr>             <tr>               <td>Entity Sub-Type</td>               <td> </td>             </tr>             <tr>               <td>Sub-Legal Classification</td>               <td>Mutual Fund</td>             </tr>           </tbody>       </table>       <br/>       <p>You can continue to search by entering data in the fields below or press clear to reset.</p>       <br/>       <input type=\"text\" name=\"match\" placeholder=\"Exact Name Match\"/>       <input type=\"text\" name=\"match\" placeholder=\"LEI\"/>       <input type=\"text\" name=\"match\" placeholder=\"Client Identifier\"/>       <div style=\"padding-top:1px;padding-left:5px;\"><button type=\"action\" name=\"identifier-data\">SUBMIT</button>       <button type=\"action\" name=\"clear\">CLEAR</button></div>     </form> </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:43:57,168 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:02,442 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "Ngrw4+I6sPKHSbUiDozffH///pEOqRCBdA==",
+        "formId": "data-table",
+        "formValues": {
+            "action": "clear",
+            "match": [
+                "",
+                "",
+                ""
+            ]
+        }
+    }
+}
+2019-12-10 14:44:02,443 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:44:02,443 - root - DEBUG - elements_action_handler
+2019-12-10 14:44:02,443 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:44:02,489 - root - DEBUG - action_processor/im_process
+2019-12-10 14:44:02,489 - root - DEBUG - {
+    "id": "mle2RW",
+    "messageId": "YwqiFjev6RHYoaRT8NFcCH___pEOqPstbQ",
+    "timestamp": 1576007042258,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "Ngrw4+I6sPKHSbUiDozffH///pEOqRCBdA==",
+            "formId": "data-table",
+            "formValues": {
+                "action": "clear",
+                "match": [
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        }
+    }
+}
+2019-12-10 14:44:02,490 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:02,714 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:02,953 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "srYJkGDjlY7XMEWDg8deYX___pEOqPmgdA",
+            "timestamp": 1576007042660,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <p>Begin a new request</p>                                       </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:02,953 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:16,034 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "gWLDFnGsLlnCpdrkJtkxc3___pEOqMYcbQ",
+            "timestamp": 1576007055843,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> help</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:16,034 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:44:16,034 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:44:16,034 - root - DEBUG - message received in IM
+2019-12-10 14:44:16,034 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:44:16,035 - root - DEBUG - {
+    "messageId": "gWLDFnGsLlnCpdrkJtkxc3___pEOqMYcbQ",
+    "timestamp": 1576007055843,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> help</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:44:16,035 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:16,334 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:16,531 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "ulZ7oZdTI69NL-qgzejLpH___pEOqMRrdA",
+            "timestamp": 1576007056283,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:16,532 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:22,327 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "oDF-WqiBtMCWFRjT_bpe6X___pEOqK2IbQ",
+            "timestamp": 1576007062135,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> help onboard</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:22,327 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:44:22,327 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:44:22,327 - root - DEBUG - message received in IM
+2019-12-10 14:44:22,327 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:44:22,327 - root - DEBUG - {
+    "messageId": "oDF-WqiBtMCWFRjT_bpe6X___pEOqK2IbQ",
+    "timestamp": 1576007062135,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> help onboard</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:44:22,328 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:22,651 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:22,830 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "YaziuMnepHxVD9ZLar_UvH___pEOqKu9dA",
+            "timestamp": 1576007062600,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                     <h3>Hi! Use hydraBot to assist with all your onboarding needs! You can try:</h3>                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> get entity</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> get documentation</li>                                         <li><span class=\"entity\" data-entity-id=\"mention4\">@hydraBot</span> clear</li>                                         <li><span class=\"entity\" data-entity-id=\"mention5\">@hydraBot</span> finish</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention4\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention5\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:22,830 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:32,715 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "ZvBLuRyFkXZ-tLFSDNr6Yn___pEOqITlbQ",
+            "timestamp": 1576007072538,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> get documentation</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:32,715 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:44:32,715 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:44:32,715 - root - DEBUG - message received in IM
+2019-12-10 14:44:32,715 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:44:32,715 - root - DEBUG - {
+    "messageId": "ZvBLuRyFkXZ-tLFSDNr6Yn___pEOqITlbQ",
+    "timestamp": 1576007072538,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> get documentation</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:44:32,716 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:32,955 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:33,198 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:33,439 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "lftIuVBbboPDaN2Ohturm3___pEOqIOGdA",
+            "timestamp": 1576007072895,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Please select a client entity name to start</div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:33,439 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:35,703 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "KXiAp8U0CEezXfqegL6Z5X///pEOqIKXdA==",
+        "formId": "form_id",
+        "formValues": {
+            "action": "docs Hudson-Exchange"
+        }
+    }
+}
+2019-12-10 14:44:35,703 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:44:35,703 - root - DEBUG - elements_action_handler
+2019-12-10 14:44:35,703 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:44:35,895 - root - DEBUG - action_processor/im_process
+2019-12-10 14:44:35,895 - root - DEBUG - {
+    "id": "uFPpF5",
+    "messageId": "69AJKq3gFpgbnzJ5oG0s03___pEOqHk0bQ",
+    "timestamp": 1576007075531,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "KXiAp8U0CEezXfqegL6Z5X///pEOqIKXdA==",
+            "formId": "form_id",
+            "formValues": {
+                "action": "docs Hudson-Exchange"
+            }
+        }
+    }
+}
+2019-12-10 14:44:35,895 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:36,126 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:36,410 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:36,597 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "ao03Blo-ej146GMCJp4OPn___pEOqHcidA",
+            "timestamp": 1576007076067,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Found your client company [['docs', 'Hudson-Exchange']].  Now provide an entify identifier like [LEI, Client Identifier, or Exact Name Match]</div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:36,597 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:40,857 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "1GYuQnvgFNEjQPYwLshEYX///pEOqHYEdA==",
+        "formId": "identifier",
+        "formValues": {
+            "action": "identifier-doc",
+            "match": [
+                "OceanCliff",
+                "",
+                ""
+            ]
+        }
+    }
+}
+2019-12-10 14:44:40,857 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:44:40,857 - root - DEBUG - elements_action_handler
+2019-12-10 14:44:40,857 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:44:40,916 - root - DEBUG - action_processor/im_process
+2019-12-10 14:44:40,916 - root - DEBUG - {
+    "id": "GCb65u",
+    "messageId": "Mh2pGEuqKYwsUz_Q1NRd8H___pEOqGUibQ",
+    "timestamp": 1576007080669,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "1GYuQnvgFNEjQPYwLshEYX///pEOqHYEdA==",
+            "formId": "identifier",
+            "formValues": {
+                "action": "identifier-doc",
+                "match": [
+                    "OceanCliff",
+                    "",
+                    ""
+                ]
+            }
+        }
+    }
+}
+2019-12-10 14:44:40,916 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:41,226 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:41,466 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:41,690 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "0e4Ffx5ce8Z2vibmCI330X___pEOqGNRdA",
+            "timestamp": 1576007081141,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">           <table>               <tbody>                 <tr>                   <td>W-88EN-E</td>                 </tr>                 <tr>                   <td>Audited Financial Statements</td>                 </tr>                 <tr>                   <td>Assests Under Management (AUN)</td>                 </tr>                 <tr>                   <td>Sub-Legal Classification</td>                 </tr>                 <tr>                   <td>Articles of Organization</td>                 </tr>                 <tr>                   <td>LLC Agreement</td>                 </tr>                 <tr>                   <td>Investment Management Agreement</td>                 </tr>                 <tr>                   <td>Offering Memorandum/Prospectus/Offering Circular</td>                 </tr>                 <tr>                   <td>Account Opening Form</td>                 </tr>               </tbody>           </table>         </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:41,690 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:52,607 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "b_fWjX03pTQU5YW31cYGEn___pEOqDerbQ",
+            "timestamp": 1576007092308,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> finish</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:52,607 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:44:52,608 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:44:52,608 - root - DEBUG - message received in IM
+2019-12-10 14:44:52,608 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:44:52,608 - root - DEBUG - {
+    "messageId": "b_fWjX03pTQU5YW31cYGEn___pEOqDerbQ",
+    "timestamp": 1576007092308,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> finish</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:44:52,608 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:53,070 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:53,503 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "bWkzd6hdMtTsNWDsvoapCn___pEOqDVidA",
+            "timestamp": 1576007092898,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                           <form id=\"form_id\">                                           <br/>                                             <div style=\"padding-top:1px;padding-left:5px;\">                                                 <button type=\"action\" name=\"finish\">FINISH</button>                                             </div>                                           </form>                                        </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:53,503 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:55,001 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "bWkzd6hdMtTsNWDsvoapCn///pEOqDVidA==",
+        "formId": "form_id",
+        "formValues": {
+            "action": "finish"
+        }
+    }
+}
+2019-12-10 14:44:55,001 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:44:55,001 - root - DEBUG - elements_action_handler
+2019-12-10 14:44:55,001 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:44:55,140 - root - DEBUG - action_processor/im_process
+2019-12-10 14:44:55,140 - root - DEBUG - {
+    "id": "ojBwuK",
+    "messageId": "NgepJuoy9dVzJLUAohe-s3___pEOqC5DbQ",
+    "timestamp": 1576007094716,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "bWkzd6hdMtTsNWDsvoapCn///pEOqDVidA==",
+            "formId": "form_id",
+            "formValues": {
+                "action": "finish"
+            }
+        }
+    }
+}
+2019-12-10 14:44:55,140 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:44:55,666 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:44:56,176 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "QPiCyJ8wMInHK4t75vWHe3___pEOqCv0dA",
+            "timestamp": 1576007095312,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>                                       </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:44:56,176 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:45:05,586 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "htcRoehoh2dpgSjkg_vTMn___pEOqASxbQ",
+            "timestamp": 1576007105358,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>another one</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:45:05,586 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:45:05,586 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:45:05,586 - root - DEBUG - room msg received
+2019-12-10 14:45:05,586 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:45:05,586 - root - DEBUG - {
+    "messageId": "htcRoehoh2dpgSjkg_vTMn___pEOqASxbQ",
+    "timestamp": 1576007105358,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>another one</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+        "streamType": "ROOM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:45:05,586 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:45:06,011 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:45:06,271 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "5hjU2OLEVjCWGCxuLG_-o3___pEOqAL_dA",
+            "timestamp": 1576007105799,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                                 <p>Choose Your Demo:</p>                                                 <br/> <br/>                                                   <form id=\"choose-bot\">                                                     <div style=\"padding-top:1px;\"><button type=\"action\" name=\"kyc\">KYC</button>                                                     <button type=\"action\" name=\"trade-structure\">Trade Builder</button>                                                     <button type=\"action\" name=\"whitesand\">FX Trade Exception</button></div>                                                   </form>                                                 </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:45:06,272 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:45:09,052 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "4RBWbCSEzY14B9F2RE8FXH///pGaF5k4dA=="
+        },
+        "formMessageId": "5hjU2OLEVjCWGCxuLG/+o3///pEOqAL/dA==",
+        "formId": "choose-bot",
+        "formValues": {
+            "action": "trade-structure"
+        }
+    }
+}
+2019-12-10 14:45:09,052 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:45:09,052 - root - DEBUG - elements_action_handler
+2019-12-10 14:45:09,052 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:45:09,102 - root - DEBUG - action_processor/room_process
+2019-12-10 14:45:09,102 - root - DEBUG - {
+    "id": "g4doDs",
+    "messageId": "ul1v7bwpGtRCAFHBmm6HJH___pEOp_b3bQ",
+    "timestamp": 1576007108872,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH///pGaF5k4dA=="
+            },
+            "formMessageId": "5hjU2OLEVjCWGCxuLG/+o3///pEOqAL/dA==",
+            "formId": "choose-bot",
+            "formValues": {
+                "action": "trade-structure"
+            }
+        }
+    }
+}
+2019-12-10 14:45:09,103 - root - DEBUG - StreamClient/create_im()
+2019-12-10 14:45:09,152 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:45:09,479 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:45:09,707 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "CEesYwOb5mblhRZcLUbzvH___pEOp_TZdA",
+            "timestamp": 1576007109422,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <h3>Hi! Use hydraBot to assist with all your trading needs! You can try:</h3>                                             <ul>                                             <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help trade</li>                                             <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> find the yield</li>                                             <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> buy</li>                                             <li><span class=\"entity\" data-entity-id=\"mention4\">@hydraBot</span> finish</li>                                             </ul>                                     </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention4\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:45:09,707 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:45:24,595 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "pW6YP8-f5TSW355XahMyfn___pEOp7o9bQ",
+            "timestamp": 1576007124418,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> find the yield of 6m tbill</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:45:24,595 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:45:24,595 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:45:24,595 - root - DEBUG - message received in IM
+2019-12-10 14:45:24,595 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:45:24,595 - root - DEBUG - {
+    "messageId": "pW6YP8-f5TSW355XahMyfn___pEOp7o9bQ",
+    "timestamp": 1576007124418,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> find the yield of 6m tbill</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:45:24,598 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:45:24,845 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:45:25,069 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "znUcZViqM--8lQQIMs0_vH___pEOp7jLdA",
+            "timestamp": 1576007124793,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">     <form id=\"yield\">       <table>         <thead>           <tr>             <td>Cusip</td>             <td>Maturity Date</td>             <td>Yield</td>           </tr>         </thead>         <tbody>           <tr>             <td>92343VBG8</td>             <td>12/04/2019</td>             <td>2.406%</td>           </tr>         </tbody>       </table>       <br/>       <button type=\"action\" name=\"yield\">yield</button>     </form> </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:45:25,069 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:45:54,564 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "AsADI7tW8FrfI_1WTmLBcH___pEOp0U9bQ",
+            "timestamp": 1576007154370,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> buy 50 m of 92343VBG8</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:45:54,564 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:45:54,564 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:45:54,564 - root - DEBUG - message received in IM
+2019-12-10 14:45:54,564 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:45:54,564 - root - DEBUG - {
+    "messageId": "AsADI7tW8FrfI_1WTmLBcH___pEOp0U9bQ",
+    "timestamp": 1576007154370,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> buy 50 m of 92343VBG8</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:45:54,565 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:45:56,884 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:45:57,318 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:45:57,570 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "GGdhvFXFUYQrIYb65h7193___pEOp0PKdA",
+            "timestamp": 1576007154748,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Building order for you</div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:45:57,570 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:46:27,790 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:46:27,790 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:46:35,936 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "vj9W_7gBBURSfIi45Z_j8H___pEOpqOQbQ",
+            "timestamp": 1576007195759,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> but 250 k of aapl</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:46:35,937 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:46:35,937 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:46:35,937 - root - DEBUG - message received in IM
+2019-12-10 14:46:35,937 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:46:35,937 - root - DEBUG - {
+    "messageId": "vj9W_7gBBURSfIi45Z_j8H___pEOpqOQbQ",
+    "timestamp": 1576007195759,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> but 250 k of aapl</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:46:35,937 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:46:36,155 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:46:36,428 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "BWG7SKNXM0bOPTCruTh9N3___pEOpqI3dA",
+            "timestamp": 1576007196109,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Sorry I did not quite catch that, one more time please?</div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:46:36,428 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:46:49,926 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "6FiUyoCRT0uavOlnvgZpgn___pEOpmzrbQ",
+            "timestamp": 1576007209748,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> buy 250 k of appl</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:46:49,926 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:46:49,927 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:46:49,927 - root - DEBUG - message received in IM
+2019-12-10 14:46:49,927 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:46:49,927 - root - DEBUG - {
+    "messageId": "6FiUyoCRT0uavOlnvgZpgn___pEOpmzrbQ",
+    "timestamp": 1576007209748,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> buy 250 k of appl</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:46:49,927 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:46:52,188 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:46:52,415 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:46:52,681 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "sQ_Q6PhUZoDt7EzBDpTZNn___pEOpmt0dA",
+            "timestamp": 1576007210129,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Building order for you</div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:46:52,681 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:47:14,461 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "DpSkD1hgF9tuc7wupRD8R3___pEOpg0UbQ",
+            "timestamp": 1576007234283,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> finish</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:47:14,461 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:47:14,461 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:47:14,461 - root - DEBUG - message received in IM
+2019-12-10 14:47:14,461 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:47:14,461 - root - DEBUG - {
+    "messageId": "DpSkD1hgF9tuc7wupRD8R3___pEOpg0UbQ",
+    "timestamp": 1576007234283,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> finish</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:47:14,461 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:47:14,724 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:47:15,014 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "GmJ6AfPGKjIM9u5b33hUn3___pEOpguadA",
+            "timestamp": 1576007234666,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                           <form id=\"form_id\">                                           <br/>                                             <div style=\"padding-top:1px;padding-left:5px;\">                                                 <button type=\"action\" name=\"finish\">FINISH</button>                                             </div>                                           </form>                                        </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:47:15,014 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:47:16,505 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "GmJ6AfPGKjIM9u5b33hUn3///pEOpguadA==",
+        "formId": "form_id",
+        "formValues": {
+            "action": "finish"
+        }
+    }
+}
+2019-12-10 14:47:16,505 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:47:16,505 - root - DEBUG - elements_action_handler
+2019-12-10 14:47:16,505 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:47:16,697 - root - DEBUG - action_processor/im_process
+2019-12-10 14:47:16,697 - root - DEBUG - {
+    "id": "ftNudw",
+    "messageId": "-P57B9QSaXIWFLyV_ZYaGH___pEOpgUhbQ",
+    "timestamp": 1576007236318,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "GmJ6AfPGKjIM9u5b33hUn3///pEOpguadA==",
+            "formId": "form_id",
+            "formValues": {
+                "action": "finish"
+            }
+        }
+    }
+}
+2019-12-10 14:47:16,697 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:47:16,933 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:47:17,188 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "lN6lK7QWG_kSmG5EGDiBtn___pEOpgL7dA",
+            "timestamp": 1576007236873,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>                                       </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:47:17,188 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:47:21,079 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "7yS_dZwOgaHIlH_6wGrroX___pEOpfNUbQ",
+            "timestamp": 1576007240875,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>one more time</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:47:21,079 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:47:21,079 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:47:21,079 - root - DEBUG - room msg received
+2019-12-10 14:47:21,079 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:47:21,079 - root - DEBUG - {
+    "messageId": "7yS_dZwOgaHIlH_6wGrroX___pEOpfNUbQ",
+    "timestamp": 1576007240875,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>one more time</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+        "streamType": "ROOM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:47:21,079 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:47:21,312 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:47:21,536 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "C-vaXXlhNFLtnGVuVubE6n___pEOpfHgdA",
+            "timestamp": 1576007241254,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                                 <p>Choose Your Demo:</p>                                                 <br/> <br/>                                                   <form id=\"choose-bot\">                                                     <div style=\"padding-top:1px;\"><button type=\"action\" name=\"kyc\">KYC</button>                                                     <button type=\"action\" name=\"trade-structure\">Trade Builder</button>                                                     <button type=\"action\" name=\"whitesand\">FX Trade Exception</button></div>                                                   </form>                                                 </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:47:21,536 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:47:23,628 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "4RBWbCSEzY14B9F2RE8FXH///pGaF5k4dA=="
+        },
+        "formMessageId": "C+vaXXlhNFLtnGVuVubE6n///pEOpfHgdA==",
+        "formId": "choose-bot",
+        "formValues": {
+            "action": "whitesand"
+        }
+    }
+}
+2019-12-10 14:47:23,628 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:47:23,628 - root - DEBUG - elements_action_handler
+2019-12-10 14:47:23,629 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:47:23,676 - root - DEBUG - action_processor/room_process
+2019-12-10 14:47:23,676 - root - DEBUG - {
+    "id": "iC8wL1",
+    "messageId": "1XaPfVbEa3z2ZvPh4nIuln___pEOpek_bQ",
+    "timestamp": 1576007243456,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH///pGaF5k4dA=="
+            },
+            "formMessageId": "C+vaXXlhNFLtnGVuVubE6n///pEOpfHgdA==",
+            "formId": "choose-bot",
+            "formValues": {
+                "action": "whitesand"
+            }
+        }
+    }
+}
+2019-12-10 14:47:23,676 - root - DEBUG - StreamClient/create_im()
+2019-12-10 14:47:23,727 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:47:24,075 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:47:24,304 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "iBzWnLo-f4r2hY9G2A5dX3___pEOpecWdA",
+            "timestamp": 1576007244015,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <h3>Hi! Use hydraBot to keep you up to date on trade status! You can try:</h3>                                             <ul>                                             <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help resolve</li>                                             <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> get fx</li>                                             <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> get unmatched fx [currency]</li>                                             <li><span class=\"entity\" data-entity-id=\"mention4\">@hydraBot</span> finish</li>                                             </ul>                                     </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention4\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:47:24,304 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:47:54,529 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:47:54,529 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:48:10,154 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "TS0lGqvjK6DhsvVMWAciJH___pEOpTPLbQ",
+            "timestamp": 1576007289908,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> get fx</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:48:10,155 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:48:10,155 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:48:10,155 - root - DEBUG - message received in IM
+2019-12-10 14:48:10,155 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:48:10,155 - root - DEBUG - {
+    "messageId": "TS0lGqvjK6DhsvVMWAciJH___pEOpTPLbQ",
+    "timestamp": 1576007289908,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> get fx</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:48:10,156 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:48:10,662 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:48:10,992 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:48:11,215 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "jkx6fA6iZlF5sufgWSKdCX___pEOpTGCdA",
+            "timestamp": 1576007290499,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Here is FX Trade Match Search Results</div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:48:11,215 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:48:30,784 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "L05ra7Lq9iCbSV9dUi/AJX///pEOpS/gdA==",
+        "formId": "fx",
+        "formValues": {
+            "action": "fix Option_NZD/SGD_64.36759183204 4"
+        }
+    }
+}
+2019-12-10 14:48:30,784 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:48:30,784 - root - DEBUG - elements_action_handler
+2019-12-10 14:48:30,784 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:48:30,974 - root - DEBUG - action_processor/im_process
+2019-12-10 14:48:30,974 - root - DEBUG - {
+    "id": "juDVRy",
+    "messageId": "Nowizr1p_wNo7iWH0Iy42n___pEOpOLtbQ",
+    "timestamp": 1576007310610,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "L05ra7Lq9iCbSV9dUi/AJX///pEOpS/gdA==",
+            "formId": "fx",
+            "formValues": {
+                "action": "fix Option_NZD/SGD_64.36759183204 4"
+            }
+        }
+    }
+}
+2019-12-10 14:48:30,974 - root - DEBUG - StreamClient/create_room()
+2019-12-10 14:48:31,191 - root - DEBUG - StreamClient/add_member_to_room()
+2019-12-10 14:48:31,458 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:48:31,857 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:48:32,145 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:48:32,359 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "roomCreated": {
+        "stream": {
+            "streamId": "9fn1-JAWWYEI_fiz02g3x3___pEOpOFRdA",
+            "streamType": "ROOM",
+            "roomName": "Option_NZD/SGD_64.36759183204",
+            "external": false,
+            "crossPod": false
+        },
+        "roomProperties": {
+            "name": "Option_NZD/SGD_64.36759183204",
+            "description": "Option_NZD/SGD_64.36759183204",
+            "creatorUser": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "createdDate": 1576007311022,
+            "external": false,
+            "crossPod": false,
+            "copyProtected": false,
+            "readOnly": false,
+            "discoverable": false,
+            "membersCanInvite": false,
+            "canViewHistory": false,
+            "public": false
+        }
+    }
+}
+2019-12-10 14:48:32,359 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:49:02,579 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:49:02,579 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:49:25,704 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "ZcbLI-IKIQQT8_abllhUbH___pEOpAxjbQ",
+            "timestamp": 1576007365532,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> help resolve</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:49:25,705 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:49:25,705 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:49:25,705 - root - DEBUG - message received in IM
+2019-12-10 14:49:25,705 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:49:25,705 - root - DEBUG - {
+    "messageId": "ZcbLI-IKIQQT8_abllhUbH___pEOpAxjbQ",
+    "timestamp": 1576007365532,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> help resolve</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:49:25,705 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:49:26,191 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:49:26,521 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "h-wjXaG0Dau54aB0y9fqz3___pEOpAoHdA",
+            "timestamp": 1576007366143,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                     <h3>Hi! Use hydraBot to keep you up to date on trade status! You can try:</h3>                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help resolve</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> get fx</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> get unmatched fx [currency]</li>                                         <li><span class=\"entity\" data-entity-id=\"mention4\">@hydraBot</span> finish</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention4\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:49:26,521 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:49:56,892 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:49:56,892 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:50:19,009 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "eS3OQt0XdZc_jmtQNX9unn___pEOozxkbQ",
+            "timestamp": 1576007418779,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> get unmatched fx JPY</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222344902,
+                "firstName": "Reed",
+                "lastName": "Feldman",
+                "displayName": "Reed Feldman (Develop 2)",
+                "email": "reed.feldman@symphony.com",
+                "username": "reed.feldman@symphony.com"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:50:19,009 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:50:19,009 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:50:19,009 - root - DEBUG - message received in IM
+2019-12-10 14:50:19,009 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:50:19,009 - root - DEBUG - {
+    "messageId": "eS3OQt0XdZc_jmtQNX9unn___pEOozxkbQ",
+    "timestamp": 1576007418779,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> get unmatched fx JPY</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222344902,
+        "firstName": "Reed",
+        "lastName": "Feldman",
+        "displayName": "Reed Feldman (Develop 2)",
+        "email": "reed.feldman@symphony.com",
+        "username": "reed.feldman@symphony.com"
+    },
+    "stream": {
+        "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:50:19,010 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:50:19,346 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:50:19,689 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:50:19,925 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "7e4EdkYfYhykp30gSsfVLX___pEOozq8dA",
+            "timestamp": 1576007419209,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Here is FX Trade Match Search Results</div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "d4qgB1L07mpNwSzd-JBJhH___pGf9bEMdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:50:19,925 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:50:25,729 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "szieGU79AsxeB041ujLhOn///pEOozkxdA==",
+        "formId": "fx",
+        "formValues": {
+            "action": "jpy Option_JPY/NOK_69.57399284877 3"
+        }
+    }
+}
+2019-12-10 14:50:25,729 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:50:25,730 - root - DEBUG - elements_action_handler
+2019-12-10 14:50:25,730 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:50:25,920 - root - DEBUG - action_processor/im_process
+2019-12-10 14:50:25,920 - root - DEBUG - {
+    "id": "F4afF4",
+    "messageId": "JjPc9n2UAZ5iszUoFqvIcX___pEOoyHxbQ",
+    "timestamp": 1576007425550,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "szieGU79AsxeB041ujLhOn///pEOozkxdA==",
+            "formId": "fx",
+            "formValues": {
+                "action": "jpy Option_JPY/NOK_69.57399284877 3"
+            }
+        }
+    }
+}
+2019-12-10 14:50:25,920 - root - DEBUG - StreamClient/create_room()
+2019-12-10 14:50:26,022 - root - DEBUG - StreamClient/add_member_to_room()
+2019-12-10 14:50:26,180 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:50:26,668 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:50:27,019 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:50:27,250 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "roomCreated": {
+        "stream": {
+            "streamId": "qj3orhQPQ_60YdYKN9pcPX___pEOoyBQdA",
+            "streamType": "ROOM",
+            "roomName": "Option_JPY/NOK_69.57399284877",
+            "external": false,
+            "crossPod": false
+        },
+        "roomProperties": {
+            "name": "Option_JPY/NOK_69.57399284877",
+            "description": "Option_JPY/NOK_69.57399284877",
+            "creatorUser": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "createdDate": 1576007425967,
+            "external": false,
+            "crossPod": false,
+            "copyProtected": false,
+            "readOnly": false,
+            "discoverable": false,
+            "membersCanInvite": false,
+            "canViewHistory": false,
+            "public": false
+        }
+    }
+}
+2019-12-10 14:50:27,250 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:50:28,542 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "eb086jJZMTjZNWK2Zae86n///pEOoxyhdA==",
+        "formId": "fx",
+        "formValues": {
+            "action": "jpy Option_JPY/NOK_72.40775271464 6"
+        }
+    }
+}
+2019-12-10 14:50:28,542 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:50:28,542 - root - DEBUG - elements_action_handler
+2019-12-10 14:50:28,542 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:50:28,590 - root - DEBUG - action_processor/im_process
+2019-12-10 14:50:28,590 - root - DEBUG - {
+    "id": "wYXkUw",
+    "messageId": "4gP41aJxHQ-nKzjVZEs0k3___pEOoxbubQ",
+    "timestamp": 1576007428369,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "eb086jJZMTjZNWK2Zae86n///pEOoxyhdA==",
+            "formId": "fx",
+            "formValues": {
+                "action": "jpy Option_JPY/NOK_72.40775271464 6"
+            }
+        }
+    }
+}
+2019-12-10 14:50:28,590 - root - DEBUG - StreamClient/create_room()
+2019-12-10 14:50:28,691 - root - DEBUG - StreamClient/add_member_to_room()
+2019-12-10 14:50:28,899 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:50:29,358 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:50:29,683 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:50:29,962 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "roomCreated": {
+        "stream": {
+            "streamId": "r3lSpNtV4dIL2AUPhNcXlH___pEOoxXjdA",
+            "streamType": "ROOM",
+            "roomName": "Option_JPY/NOK_72.40775271464",
+            "external": false,
+            "crossPod": false
+        },
+        "roomProperties": {
+            "name": "Option_JPY/NOK_72.40775271464",
+            "description": "Option_JPY/NOK_72.40775271464",
+            "creatorUser": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "createdDate": 1576007428637,
+            "external": false,
+            "crossPod": false,
+            "copyProtected": false,
+            "readOnly": false,
+            "discoverable": false,
+            "membersCanInvite": false,
+            "canViewHistory": false,
+            "public": false
+        }
+    }
+}
+2019-12-10 14:50:29,962 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:50:31,133 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+        },
+        "formStream": {
+            "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+        },
+        "formMessageId": "82gx0EJNHy+92eGWEswXBX///pEOoxIkdA==",
+        "formId": "fx",
+        "formValues": {
+            "action": "jpy Swap_BRL/JPY_151.27258008029 10"
+        }
+    }
+}
+2019-12-10 14:50:31,133 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:50:31,133 - root - DEBUG - elements_action_handler
+2019-12-10 14:50:31,133 - root - DEBUG - StreamClient/stream_info_v2()
+2019-12-10 14:50:31,182 - root - DEBUG - action_processor/im_process
+2019-12-10 14:50:31,182 - root - DEBUG - {
+    "id": "45SYop",
+    "messageId": "5OrKH0Fbo2xZXpkRy8fpXH___pEOowzCbQ",
+    "timestamp": 1576007430973,
+    "type": "SYMPHONYELEMENTSACTION",
+    "initiator": {
+        "user": {
+            "userId": 349026222344902,
+            "firstName": "Reed",
+            "lastName": "Feldman",
+            "displayName": "Reed Feldman (Develop 2)",
+            "email": "reed.feldman@symphony.com",
+            "username": "reed.feldman@symphony.com"
+        }
+    },
+    "payload": {
+        "symphonyElementsAction": {
+            "actionStream": {
+                "streamId": "bx_mCNzrEDv4HJEpui4dRX___pGfkDjVdA"
+            },
+            "formStream": {
+                "streamId": "d4qgB1L07mpNwSzd+JBJhH///pGf9bEMdA=="
+            },
+            "formMessageId": "82gx0EJNHy+92eGWEswXBX///pEOoxIkdA==",
+            "formId": "fx",
+            "formValues": {
+                "action": "jpy Swap_BRL/JPY_151.27258008029 10"
+            }
+        }
+    }
+}
+2019-12-10 14:50:31,182 - root - DEBUG - StreamClient/create_room()
+2019-12-10 14:50:31,284 - root - DEBUG - StreamClient/add_member_to_room()
+2019-12-10 14:50:31,507 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:50:32,065 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:50:32,581 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:50:32,810 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "roomCreated": {
+        "stream": {
+            "streamId": "OoOSE5fxq0Y4PwV4XXeMb3___pEOowvCdA",
+            "streamType": "ROOM",
+            "roomName": "Swap_BRL/JPY_151.27258008029",
+            "external": false,
+            "crossPod": false
+        },
+        "roomProperties": {
+            "name": "Swap_BRL/JPY_151.27258008029",
+            "description": "Swap_BRL/JPY_151.27258008029",
+            "creatorUser": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "createdDate": 1576007431229,
+            "external": false,
+            "crossPod": false,
+            "copyProtected": false,
+            "readOnly": false,
+            "discoverable": false,
+            "membersCanInvite": false,
+            "canViewHistory": false,
+            "public": false
+        }
+    }
+}
+2019-12-10 14:50:32,810 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:51:03,032 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:51:03,032 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:51:33,219 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:51:33,219 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:52:03,403 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:52:03,403 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:52:33,688 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:52:33,688 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:53:03,880 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:53:03,880 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:53:34,135 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:53:34,135 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:54:04,363 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:54:04,363 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:54:34,589 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:54:34,589 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:55:04,809 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:55:04,810 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:55:35,100 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:55:35,100 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:56:05,274 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:56:05,274 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:56:35,470 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:56:35,470 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:56:53,376 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "instantMessageCreated": {
+        "stream": {
+            "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+            "streamType": "IM",
+            "members": [
+                {
+                    "userId": 349026222348383
+                },
+                {
+                    "userId": 349026222349037
+                }
+            ],
+            "external": false,
+            "crossPod": false
+        }
+    }
+}
+2019-12-10 14:56:53,376 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:56:53,376 - root - DEBUG - instant_msg_handler function started
+2019-12-10 14:56:53,376 - root - DEBUG - IM created!
+2019-12-10 14:56:53,376 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:56:59,093 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "NdUbWPWYVDxKZR2VKhD8dX___pEOnSI5bQ",
+            "timestamp": 1576007818694,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/help</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222349037,
+                "firstName": "Demo_2",
+                "lastName": "Metlife",
+                "displayName": "Demo_2 Metlife",
+                "email": "metlife_dev_user_2@symphony-demo.com",
+                "username": "metlife_dev_user_2"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:56:59,093 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:56:59,093 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:56:59,093 - root - DEBUG - message received in IM
+2019-12-10 14:56:59,093 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:56:59,093 - root - DEBUG - {
+    "messageId": "NdUbWPWYVDxKZR2VKhD8dX___pEOnSI5bQ",
+    "timestamp": 1576007818694,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/help</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222349037,
+        "firstName": "Demo_2",
+        "lastName": "Metlife",
+        "displayName": "Demo_2 Metlife",
+        "email": "metlife_dev_user_2@symphony-demo.com",
+        "username": "metlife_dev_user_2"
+    },
+    "stream": {
+        "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:56:59,094 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:56:59,454 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:56:59,694 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "W5O-cWgoj2wfZ1EuzrFXVn___pEOnR-hdA",
+            "timestamp": 1576007819364,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:56:59,694 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:04,972 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "nRNYe0AUVVa4E-q9cjT4Wn___pEOnQzgbQ",
+            "timestamp": 1576007824159,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">#testReed</span></p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"org.symphonyoss.taxonomy.hashtag\",\"value\":\"testReed\"}],\"type\":\"org.symphonyoss.taxonomy\",\"version\":\"1.0\"}}",
+            "user": {
+                "userId": 349026222342182,
+                "firstName": "Karl",
+                "lastName": "Moll",
+                "displayName": "Karl Moll (Develop 2)",
+                "email": "karl.moll@symphony.com",
+                "username": "karl.moll@symphony.com"
+            },
+            "stream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:04,972 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:57:04,972 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:57:04,972 - root - DEBUG - room msg received
+2019-12-10 14:57:04,972 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:57:04,973 - root - DEBUG - {
+    "messageId": "nRNYe0AUVVa4E-q9cjT4Wn___pEOnQzgbQ",
+    "timestamp": 1576007824159,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">#testReed</span></p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"org.symphonyoss.taxonomy.hashtag\",\"value\":\"testReed\"}],\"type\":\"org.symphonyoss.taxonomy\",\"version\":\"1.0\"}}",
+    "user": {
+        "userId": 349026222342182,
+        "firstName": "Karl",
+        "lastName": "Moll",
+        "displayName": "Karl Moll (Develop 2)",
+        "email": "karl.moll@symphony.com",
+        "username": "karl.moll@symphony.com"
+    },
+    "stream": {
+        "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+        "streamType": "ROOM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-MacOSX-10.14.6-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:57:04,973 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:57:05,217 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:05,444 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "zbHwZ-KyQgcI2B_2fjSuen___pEOnQkPdA",
+            "timestamp": 1576007825142,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                                 <p>Choose Your Demo:</p>                                                 <br/> <br/>                                                   <form id=\"choose-bot\">                                                     <div style=\"padding-top:1px;\"><button type=\"action\" name=\"kyc\">KYC</button>                                                     <button type=\"action\" name=\"trade-structure\">Trade Builder</button>                                                     <button type=\"action\" name=\"whitesand\">FX Trade Exception</button></div>                                                   </form>                                                 </div>",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:05,444 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:13,745 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "xLKHKH4ll0tcwuvfYqyjZX___pEOnOgibQ",
+            "timestamp": 1576007833565,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/help onboard</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222349037,
+                "firstName": "Demo_2",
+                "lastName": "Metlife",
+                "displayName": "Demo_2 Metlife",
+                "email": "metlife_dev_user_2@symphony-demo.com",
+                "username": "metlife_dev_user_2"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:13,745 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:57:13,745 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:57:13,745 - root - DEBUG - message received in IM
+2019-12-10 14:57:13,745 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:57:13,745 - root - DEBUG - {
+    "messageId": "xLKHKH4ll0tcwuvfYqyjZX___pEOnOgibQ",
+    "timestamp": 1576007833565,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/help onboard</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222349037,
+        "firstName": "Demo_2",
+        "lastName": "Metlife",
+        "displayName": "Demo_2 Metlife",
+        "email": "metlife_dev_user_2@symphony-demo.com",
+        "username": "metlife_dev_user_2"
+    },
+    "stream": {
+        "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:57:13,745 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:57:14,034 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:14,263 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "ETvGdY3-GGaw2ixiyl4zIn___pEOnOaidA",
+            "timestamp": 1576007833955,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:14,263 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:23,950 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "OiAocstq16DWzGkfa2rwo3___pEOnMBLbQ",
+            "timestamp": 1576007843764,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> /onboard</p></div>",
+            "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+            "user": {
+                "userId": 349026222349037,
+                "firstName": "Demo_2",
+                "lastName": "Metlife",
+                "displayName": "Demo_2 Metlife",
+                "email": "metlife_dev_user_2@symphony-demo.com",
+                "username": "metlife_dev_user_2"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:23,950 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:57:23,950 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:57:23,951 - root - DEBUG - message received in IM
+2019-12-10 14:57:23,951 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:57:23,951 - root - DEBUG - {
+    "messageId": "OiAocstq16DWzGkfa2rwo3___pEOnMBLbQ",
+    "timestamp": 1576007843764,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p><span class=\"entity\" data-entity-id=\"0\">@hydraBot</span> /onboard</p></div>",
+    "data": "{\"0\":{\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}],\"type\":\"com.symphony.user.mention\"}}",
+    "user": {
+        "userId": 349026222349037,
+        "firstName": "Demo_2",
+        "lastName": "Metlife",
+        "displayName": "Demo_2 Metlife",
+        "email": "metlife_dev_user_2@symphony-demo.com",
+        "username": "metlife_dev_user_2"
+    },
+    "stream": {
+        "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:57:23,951 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:57:24,230 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:24,545 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "O-G98xEtYFTtYQZXJTkhFH___pEOnL7BdA",
+            "timestamp": 1576007844164,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:24,545 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:32,756 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "f6IfjsLT5tAI_18sGZEJqX___pEOnJ4AbQ",
+            "timestamp": 1576007852543,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/onboard k</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222349037,
+                "firstName": "Demo_2",
+                "lastName": "Metlife",
+                "displayName": "Demo_2 Metlife",
+                "email": "metlife_dev_user_2@symphony-demo.com",
+                "username": "metlife_dev_user_2"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:32,756 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:57:32,756 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:57:32,756 - root - DEBUG - message received in IM
+2019-12-10 14:57:32,756 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:57:32,756 - root - DEBUG - {
+    "messageId": "f6IfjsLT5tAI_18sGZEJqX___pEOnJ4AbQ",
+    "timestamp": 1576007852543,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/onboard k</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222349037,
+        "firstName": "Demo_2",
+        "lastName": "Metlife",
+        "displayName": "Demo_2 Metlife",
+        "email": "metlife_dev_user_2@symphony-demo.com",
+        "username": "metlife_dev_user_2"
+    },
+    "stream": {
+        "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:57:32,756 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:57:33,069 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:33,248 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "cM4Rv3MWaUlN6shOJ05fRH___pEOnJxOdA",
+            "timestamp": 1576007852984,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:33,249 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:38,825 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "gGlpD_Rp4cQVCv3PIWby9H___pEOnIYqbQ",
+            "timestamp": 1576007858645,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>abcd</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222349037,
+                "firstName": "Demo_2",
+                "lastName": "Metlife",
+                "displayName": "Demo_2 Metlife",
+                "email": "metlife_dev_user_2@symphony-demo.com",
+                "username": "metlife_dev_user_2"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:38,825 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:57:38,825 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:57:38,825 - root - DEBUG - message received in IM
+2019-12-10 14:57:38,825 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:57:38,825 - root - DEBUG - {
+    "messageId": "gGlpD_Rp4cQVCv3PIWby9H___pEOnIYqbQ",
+    "timestamp": 1576007858645,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>abcd</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222349037,
+        "firstName": "Demo_2",
+        "lastName": "Metlife",
+        "displayName": "Demo_2 Metlife",
+        "email": "metlife_dev_user_2@symphony-demo.com",
+        "username": "metlife_dev_user_2"
+    },
+    "stream": {
+        "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:57:38,826 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:57:39,163 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:39,388 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "SAR_dsaAlGW4bb24ocX8uX___pEOnIRkdA",
+            "timestamp": 1576007859105,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:39,388 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:54,555 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "Z056zASBfbPmNQRX80CpL3___pEOnEjFbQ",
+            "timestamp": 1576007874362,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/buy </p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222349037,
+                "firstName": "Demo_2",
+                "lastName": "Metlife",
+                "displayName": "Demo_2 Metlife",
+                "email": "metlife_dev_user_2@symphony-demo.com",
+                "username": "metlife_dev_user_2"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:54,555 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:57:54,555 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:57:54,555 - root - DEBUG - message received in IM
+2019-12-10 14:57:54,556 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:57:54,556 - root - DEBUG - {
+    "messageId": "Z056zASBfbPmNQRX80CpL3___pEOnEjFbQ",
+    "timestamp": 1576007874362,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/buy </p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222349037,
+        "firstName": "Demo_2",
+        "lastName": "Metlife",
+        "displayName": "Demo_2 Metlife",
+        "email": "metlife_dev_user_2@symphony-demo.com",
+        "username": "metlife_dev_user_2"
+    },
+    "stream": {
+        "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:57:54,556 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:57:54,835 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:57:55,066 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "EaaLcPqAxM7hFFnn05bsmX___pEOnEc2dA",
+            "timestamp": 1576007874768,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:57:55,066 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:58:03,910 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "ratPRek9m-Q1hddGesXE1X___pEOnCQ2bQ",
+            "timestamp": 1576007883721,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/resolve</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222349037,
+                "firstName": "Demo_2",
+                "lastName": "Metlife",
+                "displayName": "Demo_2 Metlife",
+                "email": "metlife_dev_user_2@symphony-demo.com",
+                "username": "metlife_dev_user_2"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:58:03,911 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 14:58:03,911 - root - DEBUG - msg_sent_handler function started
+2019-12-10 14:58:03,911 - root - DEBUG - message received in IM
+2019-12-10 14:58:03,911 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 14:58:03,911 - root - DEBUG - {
+    "messageId": "ratPRek9m-Q1hddGesXE1X___pEOnCQ2bQ",
+    "timestamp": 1576007883721,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/resolve</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222349037,
+        "firstName": "Demo_2",
+        "lastName": "Metlife",
+        "displayName": "Demo_2 Metlife",
+        "email": "metlife_dev_user_2@symphony-demo.com",
+        "username": "metlife_dev_user_2"
+    },
+    "stream": {
+        "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 14:58:03,911 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 14:58:04,243 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:58:04,533 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "Jz4CewgfuTDK5Amy2RQpRX___pEOnCJ3dA",
+            "timestamp": 1576007884176,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "m5dN0i0ObbqyNWocUqnyDH___pEOnTfAdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 14:58:04,533 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:58:35,000 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:58:35,001 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:59:06,160 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:59:06,160 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 14:59:36,339 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 14:59:36,339 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 15:00:06,545 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 15:00:06,545 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 15:00:36,755 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 15:00:36,755 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 15:01:06,988 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-12-10 15:01:06,988 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 15:01:20,529 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "instantMessageCreated": {
+        "stream": {
+            "streamId": "JysWrgeJKu3wf2_AkajMwn___pEOmSQwdA",
+            "streamType": "IM",
+            "members": [
+                {
+                    "userId": 349026222348383
+                },
+                {
+                    "userId": 349026222349029
+                }
+            ],
+            "external": false,
+            "crossPod": false
+        }
+    }
+}
+2019-12-10 15:01:20,529 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 15:01:20,529 - root - DEBUG - instant_msg_handler function started
+2019-12-10 15:01:20,529 - root - DEBUG - IM created!
+2019-12-10 15:01:20,529 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 15:01:31,265 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "B_mMtyo-9-zk_Azh6-bRXX___pEOmPrfbQ",
+            "timestamp": 1576008090912,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/help</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222349029,
+                "firstName": "Demo_14",
+                "lastName": "Metlife",
+                "displayName": "Demo_14 Metlife",
+                "email": "metlife_dev_user_14@symphony-demo.com",
+                "username": "metlife_dev_user_14"
+            },
+            "stream": {
+                "streamId": "JysWrgeJKu3wf2_AkajMwn___pEOmSQwdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 15:01:31,266 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 15:01:31,266 - root - DEBUG - msg_sent_handler function started
+2019-12-10 15:01:31,266 - root - DEBUG - message received in IM
+2019-12-10 15:01:31,266 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 15:01:31,266 - root - DEBUG - {
+    "messageId": "B_mMtyo-9-zk_Azh6-bRXX___pEOmPrfbQ",
+    "timestamp": 1576008090912,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/help</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222349029,
+        "firstName": "Demo_14",
+        "lastName": "Metlife",
+        "displayName": "Demo_14 Metlife",
+        "email": "metlife_dev_user_14@symphony-demo.com",
+        "username": "metlife_dev_user_14"
+    },
+    "stream": {
+        "streamId": "JysWrgeJKu3wf2_AkajMwn___pEOmSQwdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 15:01:31,266 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 15:01:31,670 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 15:01:31,848 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "b93bQKvA64v_sSpK5VFK_H___pEOmPg9dA",
+            "timestamp": 1576008091592,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "JysWrgeJKu3wf2_AkajMwn___pEOmSQwdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 15:01:31,849 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 15:01:47,078 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "XOjZDqSIvG33W46t2Q5v9X___pEOmLx9bQ",
+            "timestamp": 1576008106882,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/help onboard</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222349029,
+                "firstName": "Demo_14",
+                "lastName": "Metlife",
+                "displayName": "Demo_14 Metlife",
+                "email": "metlife_dev_user_14@symphony-demo.com",
+                "username": "metlife_dev_user_14"
+            },
+            "stream": {
+                "streamId": "JysWrgeJKu3wf2_AkajMwn___pEOmSQwdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 15:01:47,078 - root - DEBUG - DataFeedEventService/handle_event()
+2019-12-10 15:01:47,078 - root - DEBUG - msg_sent_handler function started
+2019-12-10 15:01:47,078 - root - DEBUG - message received in IM
+2019-12-10 15:01:47,078 - root - DEBUG - im_processor/process_im_message()
+2019-12-10 15:01:47,078 - root - DEBUG - {
+    "messageId": "XOjZDqSIvG33W46t2Q5v9X___pEOmLx9bQ",
+    "timestamp": 1576008106882,
+    "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>/help onboard</p></div>",
+    "data": "{}",
+    "user": {
+        "userId": 349026222349029,
+        "firstName": "Demo_14",
+        "lastName": "Metlife",
+        "displayName": "Demo_14 Metlife",
+        "email": "metlife_dev_user_14@symphony-demo.com",
+        "username": "metlife_dev_user_14"
+    },
+    "stream": {
+        "streamId": "JysWrgeJKu3wf2_AkajMwn___pEOmSQwdA",
+        "streamType": "IM"
+    },
+    "externalRecipients": false,
+    "userAgent": "DESKTOP-40.0.0-10726-Windows-10-Chrome-78.0.3904.108",
+    "originalFormat": "com.symphony.messageml.v2"
+}
+2019-12-10 15:01:47,078 - root - DEBUG - MessageClient/send_msg()
+2019-12-10 15:01:47,480 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-12-10 15:01:47,709 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "5O-RFYZNTPzat3S3rWC4-H___pEOmLrTdA",
+            "timestamp": 1576008107317,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">                                         <ul>                                         <li><span class=\"entity\" data-entity-id=\"mention1\">@hydraBot</span> help onboard</li>                                         <li><span class=\"entity\" data-entity-id=\"mention2\">@hydraBot</span> help trade</li>                                         <li><span class=\"entity\" data-entity-id=\"mention3\">@hydraBot</span> help resolve</li>                                         </ul>                                 </div>",
+            "data": "{\"mention1\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention2\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]},\"mention3\":{\"type\":\"com.symphony.user.mention\",\"version\":\"1.0\",\"id\":[{\"type\":\"com.symphony.user.userId\",\"value\":\"349026222348383\"}]}}",
+            "user": {
+                "userId": 349026222348383,
+                "displayName": "hydraBot",
+                "email": "hydraBot@example.com",
+                "username": "hydraBot"
+            },
+            "stream": {
+                "streamId": "JysWrgeJKu3wf2_AkajMwn___pEOmSQwdA",
+                "streamType": "IM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.12-Linux-4.14.143-91.122.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-12-10 15:01:47,709 - root - DEBUG - DataFeedClient/read_datafeed()

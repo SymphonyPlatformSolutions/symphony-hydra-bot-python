@@ -13,8 +13,7 @@ class RoomProcessor:
         self.sym_message_parser = SymMessageParser()
 
     def process(self, msg):
-        print(msg)
-        logging.debug('im_processor/process_im_message()')
+        logging.debug('im_processor/process_room_message()')
         logging.debug(json.dumps(msg, indent=4))
 
         user_id = msg['user']['userId']

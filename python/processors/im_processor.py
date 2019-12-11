@@ -52,6 +52,7 @@ class IMProcessor:
                                         <li><mention uid="{0}"/> help onboard</li>
                                         <li><mention uid="{0}"/> help trade</li>
                                         <li><mention uid="{0}"/> help resolve</li>
+                                        <li><mention uid="{0}"/> finish</li>
                                         </ul>
                                 </messageML>
                     """.format(self.bot_id))
@@ -61,13 +62,11 @@ class IMProcessor:
         logging.debug(json.dumps(msg, indent=4))
 
         commands = self.sym_message_parser.get_text(msg)
-        print(commands)
         user_id = msg['user']['userId']
         mentioned_users = self.sym_message_parser.get_mention_ids(msg)
 
         if mentioned_users:
             if len(commands) > 2:
-                print('greater than one')
                 if mentioned_users[0] == self.bot_id and commands[1] == 'help' and commands[2] == 'trade':
                     self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.trade_help_message)
 
@@ -87,25 +86,17 @@ class IMProcessor:
 
                 elif mentioned_users[0] == self.bot_id and commands[1] == 'get' and commands[2] == 'fx':
                     self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.match_message)
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('./listeners/render_form/html/fx.html'))
+                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('python/listeners/render_form/html/fx.html'))
 
                 elif mentioned_users[0] == self.bot_id and commands[1] == 'get' and commands[2] == 'unmatched':
                     self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.match_message)
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('./listeners/render_form/html/jpy_fx.html'))
+                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('python/listeners/render_form/html/jpy_fx.html'))
 
                 elif mentioned_users[0] == self.bot_id and commands[1] == 'find' and commands[2] == 'the' and commands[3] == 'yield':
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('./listeners/render_form/html/yield.html'))
+                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('python/listeners/render_form/html/yield.html'))
 
-                elif mentioned_users[0] == self.bot_id and commands[1] == 'buy' and commands[2] == '50':
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.buy_message)
-                    time.sleep(2)
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('./listeners/render_form/html/buy.html'))
-
-                elif mentioned_users[0] == self.bot_id and commands[1] == 'buy' and commands[2] == '250':
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.buy_message)
-                    time.sleep(2)
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('./listeners/render_form/html/buy2.html'))
-
+                elif mentioned_users[0] == self.bot_id and commands[1] == 'buy':
+                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('python/listeners/render_form/html/buy_identifier.html'))
                 else:
                     self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.understand_message)
             else:
@@ -120,12 +111,10 @@ class IMProcessor:
                     self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.finish_message)
 
                 elif mentioned_users[0] == self.bot_id and commands[1] == 'yield':
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('./listeners/render_form/html/yield.html'))
+                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('python/listeners/render_form/html/yield.html'))
 
                 elif mentioned_users[0] == self.bot_id and commands[1] == 'buy':
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.buy_message)
-                    time.sleep(2)
-                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('./listeners/render_form/html/buy.html'))
+                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], render_form('python/listeners/render_form/html/buy_identifier.html'))
 
                 else:
                     self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.help_message)
