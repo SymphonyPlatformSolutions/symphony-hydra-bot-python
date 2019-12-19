@@ -1,0 +1,60 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: ${IMAGE_NAME}
+  labels:
+    app: ${IMAGE_NAME}
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: ${IMAGE_NAME}
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: ${IMAGE_NAME}
+    spec:
+      containers:
+      - name: ${IMAGE_NAME}
+        image: us.gcr.io/${GCP_PROJECT}/${IMAGE_NAME}:${CIRCLE_SHA1}
+        ports:
+        - containerPort: 8080
+        imagePullPolicy: IfNotPresent
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - name: bot-config
+          mountPath: /data/symphony/config.json
+          subPath: config.json
+        - name: environment-config
+          mountPath: /data/symphony/environment.json
+          subPath: environment.json
+        - name: bot-key
+          mountPath: /data/symphony/rsa
+          readOnly: true
+      volumes:
+      - name: bot-config
+        configMap:
+          name: ${IMAGE_NAME}-config
+      - name: environment-config
+        configMap:
+          name: ${IMAGE_NAME}-environment
+      - name: bot-key
+        secret:
+          secretName: ${IMAGE_NAME}-dev-rsa
+          items:
+          - key: private-key.pem
+            path: private-key.pem
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
