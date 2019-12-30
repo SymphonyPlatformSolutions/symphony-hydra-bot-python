@@ -1,4 +1,4 @@
-from sym_api_client_python.processors.message_formatter import MessageFormatter
+from sym_api_client_data/symphony.processors.message_formatter import MessageFormatter
 from listeners.render_form.render_form import render_form
 
 class Messages:
@@ -83,23 +83,23 @@ class Messages:
         </messageML>""".format(bot_id))
 
         self.fx_messages = {
-                            1 : render_form('python/listeners/render_form/html/fx/1.html'),
-                            2 : render_form('python/listeners/render_form/html/fx/2.html'),
-                            3 : render_form('python/listeners/render_form/html/fx/3.html'),
-                            4 : render_form('python/listeners/render_form/html/fx/4.html'),
-                            5 : render_form('python/listeners/render_form/html/fx/5.html'),
-                            6 : render_form('python/listeners/render_form/html/fx/6.html')
+                            1 : render_form('data/symphony/listeners/render_form/html/fx/1.html'),
+                            2 : render_form('data/symphony/listeners/render_form/html/fx/2.html'),
+                            3 : render_form('data/symphony/listeners/render_form/html/fx/3.html'),
+                            4 : render_form('data/symphony/listeners/render_form/html/fx/4.html'),
+                            5 : render_form('data/symphony/listeners/render_form/html/fx/5.html'),
+                            6 : render_form('data/symphony/listeners/render_form/html/fx/6.html')
                         }
 
         self.jpy_fx_messages = {
-                            1 : render_form('python/listeners/render_form/html/jpy/jpy_1.html'),
-                            2 : render_form('python/listeners/render_form/html/jpy/jpy_2.html'),
-                            3 : render_form('python/listeners/render_form/html/jpy/jpy_3.html'),
-                            4 : render_form('python/listeners/render_form/html/jpy/jpy_4.html'),
-                            5 : render_form('python/listeners/render_form/html/jpy/jpy_5.html'),
-                            6 : render_form('python/listeners/render_form/html/jpy/jpy_6.html'),
-                            7 : render_form('python/listeners/render_form/html/jpy/jpy_7.html'),
-                            8 : render_form('python/listeners/render_form/html/jpy/jpy_8.html'),
-                            9 : render_form('python/listeners/render_form/html/jpy/jpy_9.html'),
-                            10 : render_form('python/listeners/render_form/html/jpy/jpy_10.html')
+                            1 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_1.html'),
+                            2 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_2.html'),
+                            3 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_3.html'),
+                            4 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_4.html'),
+                            5 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_5.html'),
+                            6 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_6.html'),
+                            7 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_7.html'),
+                            8 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_8.html'),
+                            9 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_9.html'),
+                            10 : render_form('data/symphony/listeners/render_form/html/jpy/jpy_10.html')
                         }
