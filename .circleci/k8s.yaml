@@ -33,10 +33,10 @@ spec:
         volumeMounts:
         - name: bot-config
           mountPath: /data/symphony/config.json
-          subPath: config.json
+          subPath: config-hydra.json
         - name: environment-config
           mountPath: /data/symphony/environment.json
-          subPath: environment.json
+          subPath: environment-hydra.json
         - name: bot-key
           mountPath: /data/symphony/rsa
           readOnly: true
