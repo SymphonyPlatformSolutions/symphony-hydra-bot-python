@@ -1,4 +1,4 @@
-from sym_api_client_data/symphony.processors.message_formatter import MessageFormatter
+from sym_api_client_python.processors.message_formatter import MessageFormatter
 from listeners.render_form.render_form import render_form
 
 class Messages:
