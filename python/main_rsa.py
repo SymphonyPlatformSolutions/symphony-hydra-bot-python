@@ -61,7 +61,7 @@ def main():
         room_listener_test = RoomListenerTestImp(bot_client)
         datafeed_event_service.add_room_listener(room_listener_test)
         # Create and read the datafeed
-        print('Starting datafeed')
+        print('Starting datafeed!')
         datafeed_event_service.start_datafeed()
 
 if __name__ == "__main__":
