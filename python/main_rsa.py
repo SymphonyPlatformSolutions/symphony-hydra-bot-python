@@ -20,8 +20,7 @@ if is_venv():
     print('In virtual environment. Proceeding...')
 else:
     print('Not running in virtual environment. Consider exiting program with ctrl-c')
-    print('Docs for setting up virtual environment:')
-    print('https://docs.python.org/3/library/venv.html')
+
 
 def load_env(path_to_env_file):
     with open(path_to_env_file, "r") as env_file:
