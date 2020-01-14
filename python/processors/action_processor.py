@@ -50,7 +50,7 @@ class ActionProcessor:
             maturity_date = SymElementsParser().get_form_values(action)['maturity-date']
             percent = SymElementsParser().get_form_values(action)['yield']
 
-            if cusip == '92343VBG8':
+            if cusip == '9128284J6':
                 self.bot_client.get_message_client().send_msg(SymElementsParser().get_stream_id(action), self.messages.buy_message)
                 time.sleep(2)
                 self.bot_client.get_message_client().send_msg(SymElementsParser().get_stream_id(action), render_form('/data/symphony/listeners/render_form/html/buy2.html'))
