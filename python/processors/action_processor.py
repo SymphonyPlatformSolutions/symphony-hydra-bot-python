@@ -76,8 +76,11 @@ class ActionProcessor:
                 "description" : str(room_name)
             }
 
+            sales_room_members = self.bot_client.get_stream_client().get_room_members(self.bot_client.sales_room_stream)
+
             stream = self.bot_client.get_stream_client().create_room(room_obj)['roomSystemInfo']['id']
-            self.bot_client.get_stream_client().add_member_to_room(stream, user_id)
+            for i in sales_room_members:
+                self.bot_client.get_stream_client().add_member_to_room(self.bot_client.sales_room_stream, i['id'])
             self.bot_client.get_message_client().send_msg(stream, self.messages.fx_messages[message_number])
             self.bot_client.get_message_client().send_msg(SymElementsParser().get_stream_id(action), render_form('/data/symphony/listeners/render_form/html/fx.html'))
 
@@ -92,8 +95,12 @@ class ActionProcessor:
                 "name" : str(room_name),
                 "description" : str(room_name)
             }
+
+            sales_room_members = self.bot_client.get_stream_client().get_room_members(self.bot_client.sales_room_stream)
             stream = self.bot_client.get_stream_client().create_room(room_obj)['roomSystemInfo']['id']
-            self.bot_client.get_stream_client().add_member_to_room(stream, user_id)
+            for i in sales_room_members:
+                self.bot_client.get_stream_client().add_member_to_room(self.bot_client.sales_room_stream, i['id'])
+            # self.bot_client.get_stream_client().add_member_to_room(stream, user_id)
             self.bot_client.get_message_client().send_msg(stream, self.messages.jpy_fx_messages[message_number])
             self.bot_client.get_message_client().send_msg(SymElementsParser().get_stream_id(action), render_form('/data/symphony/listeners/render_form/html/jpy_fx.html'))
 
