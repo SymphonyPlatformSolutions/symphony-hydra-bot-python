@@ -26,6 +26,7 @@ def load_env(path_to_env_file):
     with open(path_to_env_file, "r") as env_file:
         data = json.load(env_file)
         env_vars = data
+        print(env_vars)
         if 'bot_id' in data:
             env_vars['bot_id'] = data['bot_id']
         if 'sales_room_stream' in data:
