@@ -17,7 +17,7 @@ def is_venv():
             (hasattr(sys, 'base_prefix') and sys.base_prefix != sys.prefix))
 
 if is_venv():
-    print('In virtual environment. Proceeding.')
+    print('In virtual environment. Proceeding...')
 else:
     print('Not running in virtual environment. Consider exiting program with ctrl-c')
     print('Docs for setting up virtual environment:')
