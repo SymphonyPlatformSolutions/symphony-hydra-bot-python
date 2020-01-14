@@ -26,8 +26,13 @@ else:
 def load_env(path_to_env_file):
     with open(path_to_env_file, "r") as env_file:
         data = json.load(env_file)
-        data['bot_id'] = data['bot_id']
-        data['sales_room_stream'] = data['sales_room_stream']
+        print(data)
+        if 'bot_id' in data:
+            data['bot_id'] = data['bot_id']
+        print('data')
+        if 'sales_room_stream' in data:
+            data['sales_room_stream'] = data['sales_room_stream']
+        print(data)
     return data
 
 def configure_logging():

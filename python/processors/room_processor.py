@@ -18,6 +18,7 @@ class RoomProcessor:
 
         mentioned_users = self.sym_message_parser.get_mention_ids(msg)
         if self.sym_message_parser.get_stream_id() == self.bot_client.sales_room_stream:
+            print('in sales demo room')
 
             self.start_message = dict(message = """<messageML>
                                                     <p>Choose Your Demo:</p>
