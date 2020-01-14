@@ -26,14 +26,12 @@ else:
 def load_env(path_to_env_file):
     with open(path_to_env_file, "r") as env_file:
         data = json.load(env_file)
-        print(data)
+        env_vars = data
         if 'bot_id' in data:
-            data['bot_id'] = data['bot_id']
-        print('data')
+            env_vars['bot_id'] = data['bot_id']
         if 'sales_room_stream' in data:
-            data['sales_room_stream'] = data['sales_room_stream']
-        print(data)
-    return data
+            env_vars['sales_room_stream'] = data['sales_room_stream']
+    return env_vars
 
 def configure_logging():
         mydir = Path('logs')
@@ -51,6 +49,8 @@ def main():
         configure = SymConfig('./config.json')
         configure.load_config()
         bot_env = load_env('./environment.json')
+        print('-------------------line52')
+        print(bot_env)
         auth = SymBotRSAAuth(configure)
         auth.authenticate()
         # Initialize SymBotClient with auth and configure objects
