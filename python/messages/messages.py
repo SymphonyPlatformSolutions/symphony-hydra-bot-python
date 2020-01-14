@@ -45,6 +45,7 @@ class Messages:
         self.entity_message = MessageFormatter().format_message('Please select a client entity name to start')
         self.bye_message = MessageFormatter().format_message('Thanks for using!')
         self.thanks_message = MessageFormatter().format_message('No Problem!')
+        self.resolve_message = MessageFormatter().format_message('Trade Resolved. Thanks!')
         self.buy_message = MessageFormatter().format_message('Building order for you')
         self.match_message = MessageFormatter().format_message('Here is FX Trade Match Search Results')
         self.understand_message = MessageFormatter().format_message('Sorry I did not quite catch that, one more time please?')

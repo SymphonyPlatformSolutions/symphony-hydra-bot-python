@@ -16,23 +16,29 @@ class RoomProcessor:
         logging.debug('im_processor/process_room_message()')
         logging.debug(json.dumps(msg, indent=4))
 
-        user_id = msg['user']['userId']
         mentioned_users = self.sym_message_parser.get_mention_ids(msg)
+        if self.sym_message_parser.get_stream_id() == self.bot_client.sales_room_stream:
 
-        self.start_message = dict(message = """<messageML>
-                                                <p>Choose Your Demo:</p>
-                                                <br /> <br />
-                                                  <form id='choose-bot'>
-                                                    <div style='padding-top:1px;'><button type="action" name="kyc">KYC</button>
-                                                    <button type="action" name="trade-structure">Trade Builder</button>
-                                                    <button type="action" name="whitesand">FX Trade Exception</button></div>
-                                                  </form>
-                                                </messageML>
-                    """)
+            self.start_message = dict(message = """<messageML>
+                                                    <p>Choose Your Demo:</p>
+                                                    <br /> <br />
+                                                      <form id='choose-bot'>
+                                                        <div style='padding-top:1px;'><button type="action" name="kyc">KYC</button>
+                                                        <button type="action" name="trade-structure">Trade Builder</button>
+                                                        <button type="action" name="whitesand">FX Trade Exception</button></div>
+                                                      </form>
+                                                    </messageML>
+                        """)
 
-        if mentioned_users:
-            if mentioned_users[0] == self.bot_id and commands[0] == 'start':
+            if mentioned_users:
+                if mentioned_users[0] == self.bot_id and commands[0] == 'start':
+                    self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.start_message)
+
+            else:
                 self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.start_message)
 
+        elif mentioned_users[0] == self.bot_id and commands[0] == 'resolve':
+            self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.resolve_message)
+
         else:
-            self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.start_message)
+            pass

@@ -75,6 +75,7 @@ class ActionProcessor:
                 "name" : str(room_name),
                 "description" : str(room_name)
             }
+
             stream = self.bot_client.get_stream_client().create_room(room_obj)['roomSystemInfo']['id']
             self.bot_client.get_stream_client().add_member_to_room(stream, user_id)
             self.bot_client.get_message_client().send_msg(stream, self.messages.fx_messages[message_number])

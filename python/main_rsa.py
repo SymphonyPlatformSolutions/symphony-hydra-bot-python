@@ -26,8 +26,8 @@ else:
 def load_env(path_to_env_file):
     with open(path_to_env_file, "r") as env_file:
         data = json.load(env_file)
-        if 'bot_id' in data:
-            data['bot_id'] = data['bot_id']
+        data['bot_id'] = data['bot_id']
+        data['sales_room_stream'] = data['sales_room_stream']
     return data
 
 def configure_logging():
@@ -51,6 +51,7 @@ def main():
         # Initialize SymBotClient with auth and configure objects
         bot_client = SymBotClient(auth, configure)
         bot_client.bot_id = bot_env['bot_id']
+        bot_client.sales_room_stream = bot_env['sales_room_stream']
         # Initialize datafeed service
         datafeed_event_service = bot_client.get_datafeed_event_service()
         # Add Listeners to datafeed event service
