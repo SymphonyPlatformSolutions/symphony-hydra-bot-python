@@ -18,7 +18,7 @@ class RoomProcessor:
         logging.debug(json.dumps(msg, indent=4))
 
         mentioned_users = self.sym_message_parser.get_mention_ids(msg)
-        if self.sym_message_parser.get_stream_id() == self.sales_room_stream:
+        if self.sym_message_parser.get_stream_id(msg) == self.sales_room_stream:
             print('in sales demo room')
 
             self.start_message = dict(message = """<messageML>
