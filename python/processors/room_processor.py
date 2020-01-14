@@ -9,6 +9,7 @@ class RoomProcessor:
     def __init__(self, bot_client):
         self.bot_client = bot_client
         self.bot_id = self.bot_client.bot_id
+        self.sales_room_stream = self.bot_client.sales_room_stream
         self.messages = Messages(self.bot_id)
         self.sym_message_parser = SymMessageParser()
 
@@ -17,7 +18,7 @@ class RoomProcessor:
         logging.debug(json.dumps(msg, indent=4))
 
         mentioned_users = self.sym_message_parser.get_mention_ids(msg)
-        if self.sym_message_parser.get_stream_id() == self.bot_client.sales_room_stream:
+        if self.sym_message_parser.get_stream_id() == self.sales_room_stream:
             print('in sales demo room')
 
             self.start_message = dict(message = """<messageML>
@@ -42,4 +43,5 @@ class RoomProcessor:
             self.bot_client.get_message_client().send_msg(msg['stream']['streamId'], self.messages.resolve_message)
 
         else:
+            print('not in sales room')
             pass
