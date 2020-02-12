@@ -6,7 +6,7 @@ from messages.messages import Messages
 
 
 class ElementsListenerTestImp(ElementsActionListener):
-    """Example implementation of IMListener
+    """Example implementation of ElementsListener
         sym_bot_client: contains clients which respond to incoming events
     """
 
