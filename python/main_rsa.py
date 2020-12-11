@@ -46,7 +46,7 @@ def configure_logging():
 
 def main():
         configure_logging()
-        configure = SymConfig('./config.json')
+        configure = SymConfig('.z/config.json')
         configure.load_config()
         bot_env = load_env('./environment.json')
         print('-------------------line52')
